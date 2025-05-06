@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import { expect, test } from 'vitest';
-import { SignInPage } from '../src/app/(unauthenticated)/sign-in/[[...sign-in]]/page';
+import Page from '../src/app/(unauthenticated)/sign-in/[[...sign-in]]/page';
 
 test('Sign In Page', () => {
-  render(<SignInPage />);
+  render(<Page />);
   expect(
     screen.getByRole('heading', {
       level: 1,
