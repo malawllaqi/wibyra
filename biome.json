@@ -4,6 +4,40 @@
   "javascript": {
     "globals": ["Liveblocks"]
   },
+  "linter": {
+    "rules": {
+      "a11y": {
+        "noSvgWithoutTitle": "off"
+      },
+      "suspicious": {
+        "useAwait": "off",
+        "noConsole": "off",
+        "noConsoleLog": "off",
+        "noEmptyBlockStatements": "off"
+      },
+      "style": {
+        "useShorthandArrayType": "off",
+        "useConsistentArrayType": "off",
+        "useBlockStatements": "off",
+        "noUselessElse": "off",
+        "noNonNullAssertion": "off"
+      },
+      "nursery": {
+        "noImgElement": "off",
+        "noNestedTernary": "off",
+        "useAtIndex": "off",
+        "noExportedImports": "off",
+        "noUnknownPseudoElement": "off",
+        "noUnknownTypeSelector": "off"
+      },
+      "correctness": {
+        "useExhaustiveDependencies": "off"
+      },
+      "complexity": {
+        "noExcessiveCognitiveComplexity": "off"
+      }
+    }
+  },
   "files": {
     "ignore": [
       "packages/design-system/components/ui/**",
